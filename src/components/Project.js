@@ -40,7 +40,7 @@ const Project = () => {
         </button>
         <button
           className="linkbutton"
-          onClick={() => window.open("", "_blank")}
+          onClick={() => window.open("https://sscpofol.netlify.app/", "_blank")}
         >
           <LanguageIcon fontSize="large" />
         </button>
