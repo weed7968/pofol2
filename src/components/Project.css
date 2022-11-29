@@ -7,5 +7,26 @@
 }
 
 .project_item{
+    border: 1.5px solid;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 25px;
+    position: relative;
+}
 
+.project_img{
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.linkbutton{
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    margin-top: 2%;
+}
+
+.linkbutton:hover{
+    color: aquamarine;
 }

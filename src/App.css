@@ -16,13 +16,13 @@ body {
 
 .inner {
   height: 100vh;
-  font-size: 270%;
   font-weight: bolder;
 }
 
 .sort-down{
   position: absolute;
   bottom: 0px;
+  font-size: 270%;
   margin: 0 0 15% 15%;
 }
 
@@ -43,4 +43,21 @@ body {
   width: 100%;
   height: 5px;
   background-color: gray;
+}
+
+.footer{
+  font-size: 170%;
+  padding: 7% 0 0 7%;
+}
+
+.btngit{
+  margin-top: 3%;
+}
+
+.email{
+  margin-top: 3%;
+}
+
+.gmail{
+  margin-top: 3%;
 }

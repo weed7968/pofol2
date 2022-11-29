@@ -1,12 +1,10 @@
 import { useState, useEffect, useRef } from "react";
-
 import Dots from "./Dots";
-
 import "./App.css";
-
 import Language from "./components/Language";
-
 import Project from "./components/Project";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import GoogleIcon from "@mui/icons-material/Google";
 
 const DIVIDER_HEIGHT = 5;
 
@@ -125,7 +123,24 @@ function App() {
         <Project />
       </div>
       <div className="divider"></div>
-      <div className="inner bg-black">4</div>
+      <div className="inner bg-black">
+        <div className="footer">
+          <div>링크</div>
+          <button
+            className="btngit"
+            onClick={() => window.open("https://github.com/weed7968", "_blank")}
+          >
+            <GitHubIcon fontSize="large" />
+          </button>
+          <div className="email">
+            이메일
+            <div className="gmail">
+              <GoogleIcon fontSize="large" color="error" />
+              tlstjdcjf980809@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
