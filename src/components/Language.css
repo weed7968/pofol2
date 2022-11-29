@@ -1,0 +1,16 @@
+.language_main{
+    display: flex;
+    
+}
+
+.language_contents{
+    margin: 5% 0 0 5%;
+}
+
+.language_color{
+    color: orange;
+}
+
+.language{
+    margin-top: 3%;
+}
