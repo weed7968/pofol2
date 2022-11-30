@@ -4,9 +4,9 @@ const Dot = ({ num, scrollIndex }) => {
       style={{
         width: 10,
         height: 10,
-        border: "1.5px solid black",
+        border: "1.5px solid orange",
         borderRadius: 999,
-        backgroundColor: scrollIndex === num ? "black" : "transparent",
+        backgroundColor: scrollIndex === num ? "orange" : "transparent",
         transitionDuration: 1000,
         transition: "background-color 0.5s",
       }}

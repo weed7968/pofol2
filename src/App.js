@@ -125,17 +125,17 @@ function App() {
       <div className="divider"></div>
       <div className="inner bg-black">
         <div className="footer">
-          <div>링크</div>
+          github 링크
           <button
             className="btngit"
             onClick={() => window.open("https://github.com/weed7968", "_blank")}
           >
-            <GitHubIcon fontSize="large" />
+            <GitHubIcon />
           </button>
           <div className="email">
             이메일
             <div className="gmail">
-              <GoogleIcon fontSize="large" color="error" />
+              <GoogleIcon color="error" />
               tlstjdcjf980809@gmail.com
             </div>
           </div>
